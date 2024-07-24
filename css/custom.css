@@ -337,8 +337,8 @@ body {
 }
 
 nav {
-  background: rgb(44,85,67);
-background: linear-gradient(0deg, rgba(44,85,67,1) 5%, rgba(13,199,116,1) 77%);
+  background: rgb(2,0,36);
+background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(97,68,108,1) 100%);
 }
 
 @media (max-width: 1200px) {

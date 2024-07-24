@@ -1608,3 +1608,72 @@ hr {
   border-top: var(--bs-border-width) solid;
   opacity: 0.25;
 }
+
+
+/* Service Areas */
+.service-areas {
+  padding: 3rem 0;
+}
+
+.service-areas .bg-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  object-fit: cover;
+  filter: brightness(30%);
+}
+
+.service-areas {
+  background-color: rgba(48, 0, 0, 0.3960784314);
+  padding: 2rem;
+}
+
+.service-areas .bg-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  object-fit: cover;
+  filter: brightness(30%);
+}
+
+.service-areas .cities {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  column-gap: 1rem;
+  margin-top: 2rem;
+  list-style-type: circle;
+}
+
+@media (max-width: 768px) {
+  .service-areas .cities {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 400px) {
+  .service-areas .cities {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.service-areas .cities li {
+  padding-bottom: 0.5rem;
+  font-weight: 500;
+  width: fit-content;
+  margin: 0 auto;
+  color: #fcfef7;
+}
+
+.service-areas .cities li a {
+  font-size: 22px;
+  color: #fcfef7;
+}
+
+.ratings{
+  color: #ff9529;
+}
