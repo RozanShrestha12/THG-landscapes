@@ -3,7 +3,8 @@
 
 /* Fist Nav */
 .first-nav {
-  background-color: var(--first-nav-background-color);
+  background: rgb(92,51,91);
+background: linear-gradient(0deg, rgba(92,51,91,1) 5%, rgba(156,45,153,1) 77%);
   padding: 0.5rem 0;
   position: relative;
   z-index: 2;
