@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /* Color Set */
 :root {
-  --primary: rgb(169, 40, 104);
+  --primary: #a92868;
   --secondary: rgb(238, 177, 10);
   --warning: rgb(162, 255, 134);
   --success: rgb(236, 236, 236);
@@ -337,8 +337,8 @@ body {
 }
 
 nav {
-  background: rgb(2,0,36);
-background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(97,68,108,1) 100%);
+  background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(46,41,41,1) 67%);
 }
 
 @media (max-width: 1200px) {
